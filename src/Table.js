@@ -1,10 +1,12 @@
-import React, {Component} from 'react'
+//import React, {Component} from 'react'
+import React from 'react'
 const TableHeader = () => {
     return (
       <thead>
         <tr>
-          <th>Name</th>
-          <th>Job</th>
+          <th>Nome</th>
+          <th>Trabalho</th>
+          <th>Remover</th>
         </tr>
       </thead>
     )
